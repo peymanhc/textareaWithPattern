@@ -2,6 +2,8 @@
 
 A modern, flexible React component for handling text input with pattern/tag support. This component provides a rich textarea-like experience with the ability to insert, remove, and manage tags within the text content.
 
+![Preview](Preview.png)
+
 ## Features
 
 - 🔄 Real-time tag insertion and removal
