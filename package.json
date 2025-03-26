@@ -1,0 +1,52 @@
+{
+  "name": "textarea-pattern-handler",
+  "version": "1.1.1",
+  "description": "A TypeScript utility for handling textarea patterns and DOM manipulation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/styles.css",
+  "scripts": {
+    "build": "tsc && cp styles.css dist/",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "textarea",
+    "pattern",
+    "dom",
+    "typescript",
+    "input-handler",
+    "form-control",
+    "textarea-pattern-handler",
+    "textarea-pattern",
+    "textarea-with-pattern",
+    "textarea-with-tag",
+    "tag-inside-textarea"
+  ],
+  "author": {
+    "name": "Peyman",
+    "email": "peymanhc@gmail.com",
+    "url": "https://github.com/peymanhc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peymanhc/textareaWithPattern"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
